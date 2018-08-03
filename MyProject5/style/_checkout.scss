@@ -1,0 +1,136 @@
+.checkout-page {
+  details {
+    margin: 0;
+    &[open] > summary {
+      border-width: 0;
+      > span::after {
+        content: "";
+      }
+    }
+  }
+  summary {
+    border-width: 1px 0 1px 0;
+    border-color: #e8e8e8;
+    color: $color-black;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 30px 0 30px 0;
+    span::after {
+      content: "";
+    }
+  }
+  .shipping {
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    .check {
+      width: 100%;
+      .black {
+        color: $color-black;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+      .gray {
+        color: #b3b2b2;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 33px;
+        &.small {
+          margin: 0 0 15px 0;
+        }
+      }
+      label {
+        color: $color-black;
+        font-size: 12px;
+        font-weight: 400;
+      }
+      fieldset {
+        border: 0px;
+        margin: 0 0 33px 0;
+        padding: 0;
+        label,
+        input {
+          cursor: pointer;
+        }
+        label {
+          display: flex;
+          align-items: center;
+          p {
+            margin: 0;
+          }
+        }
+        input[type="radio"] {
+          display: none;
+        }
+        .first {
+          margin-bottom: 10px;
+        }
+        .radio-custom {
+          border-radius: 50%;
+          border-style: solid;
+          border-width: 2px;
+          border-color: #fff;
+          box-sizing: border-box;
+          background-color: #ffffff;
+          width: 10px;
+          height: 10px;
+          margin-right: 15px;
+          box-shadow: 0px 0px 0px 2px #555555;
+        }
+
+        input[type="radio"]:checked + label .radio-custom {
+          background-color: #555555;
+        }
+      }
+
+      input[type="button"] {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #eaeaea;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        width: 180px;
+        height: 50px;
+        margin-top: 33px;
+        cursor: pointer;
+        outline: $color-red;
+        transition: 0.3s;
+        &:hover {
+          background-color: $color-redf;
+          color: #fff;
+        }
+      }
+      .mail-pass {
+        color: $color-black;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        span {
+          color: #ff0d0d;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+      .required {
+        color: #ff0d0d;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 0;
+      }
+      input[type="text"] {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #eaeaea;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        width: 390px;
+        height: 45px;
+        outline-color: $color-red;
+      }
+    }
+  }
+}
