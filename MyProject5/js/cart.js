@@ -5,7 +5,7 @@
  * Если нет, то создает
  */
 if (!localStorage.getItem("cart")) {
-  let productsInCart = [];
+  let productsInCart = [];console.log(1)
   localStorage.setItem("cart", JSON.stringify(productsInCart));
 }
 

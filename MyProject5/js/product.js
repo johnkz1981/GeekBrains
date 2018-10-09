@@ -34,7 +34,7 @@ class ProductCart extends Products {
            data-name="${this.productName }"
            data-price="${this.productPrice}"
            data-id="${this.productId}"
-           data-img="${this.productImg}>
+           data-img="${this.productImg}">
         <img src="img/basket2.svg " alt="Cart ">
         <span>Add to Cart</span>
       </div>
@@ -48,30 +48,6 @@ class ProductCart extends Products {
       </div>
     </a>
   </div>`;
-    let result2 = '<div class="' + this.productCartClass + '">';
-    result2 += '<a href="' + this.productLink + '" class="' + this.productImgClass + '" data-id="' + this.productId + '">';
-    result2 += '<img src="img/' + this.productImg + '" alt="' + this.productName + '">';
-    result2 += '</a>';
-    result2 += '<div class="' + this.productNameClass + '">';
-    result2 += '<a href="' + this.productLink + '" data-id="' + this.productId + '">';
-    result2 += this.productName;
-    result2 += '</a>';
-    result2 += '</div>';
-    result2 += '<div class="' + this.productRatingClass + '">';
-    for (let i = 0; i < Math.round(this.productRating); i++) {
-      result2 += '<i class="fas fa-star"></i>';
-    }
-    for (let i = 0; i < (5 - Math.round(this.productRating)); i++) {
-      result2 += '<i class="far fa-star"></i>';
-    }
-    result2 += '</div>';
-    result2 += '<div class="' + this.productPriceClass + '">';
-    result2 += '<button class="' + this.productBtnClass + '" data-id="' + this.productId
-        + '" data-name="' + this.productName + '" data-img="' + this.productImg
-        + '" data-price="' + this.productPrice + '">';
-    result2 += this.productPrice + ' руб.';
-    result2 += '</button>';
-    result2 += '</div>';
 
     return result;
   }
