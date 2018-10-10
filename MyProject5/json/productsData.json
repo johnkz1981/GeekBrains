@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category_id": 6,
-    "title": "Продукт 1",
+    "title": "Product 1",
     "image": "Layer2.jpg",
     "price": 1000,
     "hit": 0,
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "category_id": 6,
-    "title": "Продукт 2",
+    "title": "Product 2",
     "image": "Layer3.jpg",
     "price": 5000,
     "hit": 1,
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "category_id": 2,
-    "title": "Продукт 3",
+    "title": "Product 3",
     "image": "Layer4.jpg",
     "price": 1500,
     "hit": 0,
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "category_id": 2,
-    "title": "Продукт 4",
+    "title": "Product 4",
     "image": "Layer5.jpg",
     "price": 2700,
     "hit": 1,
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "category_id": 2,
-    "title": "Продукт 5",
+    "title": "Product 5",
     "image": "Layer6.jpg",
     "price": 3100,
     "hit": 0,
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "category_id": 7,
-    "title": "Продукт 6",
+    "title": "Product 6",
     "image": "Layer7.jpg",
     "price": 10200,
     "hit": 1,
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "category_id": 7,
-    "title": "Продукт 7",
+    "title": "Product 7",
     "image": "Layer8.jpg",
     "price": 1700,
     "hit": 0,
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "category_id": 8,
-    "title": "Продукт 8",
+    "title": "Product 8",
     "image": "Layer9.jpg",
     "price": 1900,
     "hit": 1,
@@ -98,8 +98,8 @@
   {
     "id": 9,
     "category_id": 10,
-    "title": "Продукт 9",
-    "image": "products/image.jpg",
+    "title": "Product 9",
+    "image": "Layer50.jpg",
     "price": 3900,
     "hit": 0,
     "rating": 1.9,
@@ -110,8 +110,8 @@
   {
     "id": 10,
     "category_id": 10,
-    "title": "Продукт 10",
-    "image": "products/image.jpg",
+    "title": "Product 10",
+    "image": "Layer50.jpg",
     "price": 900,
     "hit": 1,
     "rating": 2.2,

@@ -28,14 +28,14 @@ gulp.task('css', () => {
 gulp.task('js', () => {
   return gulp.src(paths.js)
       .pipe(concat('js.js'))
-      .pipe(uglify())
+      //.pipe(uglify())
       .pipe(rename({suffix: '.min'}))
       .pipe(gulp.dest(paths.project));
 });
 
 gulp.task('server', () => {
   return bs({
-    browser: 'google chrome canary',
+    browser: 'google chrome',
     server: {
       baseDir: paths.project
     }
